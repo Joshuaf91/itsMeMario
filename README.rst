@@ -11,13 +11,16 @@ After installing python 3.8
 
     ``pip install virtualenv``
 
-    ``cd projectfolder #go to project folder``
+    ``cd itsMeMario #go to project folder``
 
-    ``virtualenv projectname #create the folder projectname``
+    ``virtualenv itsMeMario #create the folder projectname``
 
-    ``source projectname/bin/activate``
+    ``source itsMeMario/bin/activate``
+
+    ``python save_princess_peach/entry.py``
 
 ## test case in the directory
+
     Test documents can be updated
     `here <https://github.com/Joshuaf91/itsMeMario/tree/main/tests/test_grids>`_ and the unit test
     for those files can be ran from

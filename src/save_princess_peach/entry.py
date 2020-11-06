@@ -66,3 +66,7 @@ def enter_castle(file_path: str = None):
             print(current_move)
 
     exit(1)
+
+
+if __name__ == "__main__":
+    enter_castle()

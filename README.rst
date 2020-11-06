@@ -1,6 +1,28 @@
 # Its Me Mario!
 I'm Here to Kill Bowser and save Princess Peach!
 
+Lets start by setting up the project.
+
+## Set up
+
+After installing python 3.8
+
+    ``git clone https://github.com/Joshuaf91/itsMeMario.git``
+
+    ``pip install virtualenv``
+
+    ``cd projectfolder #go to project folder``
+
+    ``virtualenv projectname #create the folder projectname``
+
+    ``source projectname/bin/activate``
+
+## test case in the directory
+    Test documents can be updated
+    `here <https://github.com/Joshuaf91/itsMeMario/tree/main/tests/test_grids>`_ and the unit test
+    for those files can be ran from
+    `this location <https://github.com/Joshuaf91/itsMeMario/blob/main/tests/test.py>`_
+
 Oh no! Bowser has Princess Peach! You must navigate the castle, defeat Bowser first and then rescue
 the Princess while avoiding any hazards.
 
@@ -19,14 +41,22 @@ The input will come from STDIN(this will require reading in N+1 lines
 from STDIN), and the output should be print to STDOUT.
 
 Sample Input:
-7
------p-
--*****-
---b----
-**-----
--------
--******
---m----
+
+    ``7``
+
+    ``-----p-``
+
+    ``-*****-``
+
+    ``--b----``
+
+    ``**-----``
+
+    ``-------``
+
+    ``-******``
+
+    ``--m----``
 
 Sample Output:
 LEFT, LEFT, UP, UP, RIGHT, RIGHT, UP, UP, RIGHT, RIGHT, RIGHT,

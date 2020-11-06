@@ -50,21 +50,19 @@ def enter_castle(file_path: str = None):
 
     count = 0
     move_to_person = BOWSER
-    last_move = None
     last_blocked_move = None
     while count < 1000:
         count += 1
         current_move = bowsers_castle.move_mario_to_person(move_to_person)
         if current_move is None:
             last_blocked_move = last_blocked_move
-        else:
-            last_move = current_move
 
         if not bowsers_castle.get_location_of_person(PEACH):
             exit(0)
         elif not bowsers_castle.get_location_of_person(BOWSER):
             move_to_person = PEACH
 
-        print(current_move)
+        if current_move:
+            print(current_move)
 
     exit(1)

@@ -1,5 +1,5 @@
-# itsMeMario
-Kill Bowser and save Princess Peach!
+# Its Me Mario!
+I'm Here to Kill Bowser and save Princess Peach!
 
 Oh no! Bowser has Princess Peach! You must navigate the castle, defeat Bowser first and then rescue
 the Princess while avoiding any hazards.

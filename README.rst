@@ -17,6 +17,11 @@ After installing python 3.8
 
     ``source itsMeMario/bin/activate``
 
+    ``cd src``
+
+    Adds `save_princess_peach` dir to the python path for imports.
+    ``export PYTHONPATH=${PYTHONPATH}:${PWD}``
+
     ``python save_princess_peach/entry.py``
 
 ## test case in the directory
